@@ -1,0 +1,256 @@
+*{margin: 0; padding: 0;} 
+.color{
+	background: #26A69A;
+	position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+body{
+	background: #EEEEEE;
+}
+.color ul li a{
+	text-transform: uppercase;
+	color: #BBE3DF;
+	font-family: 'Quattrocento Sans', sans-serif;;
+    font-weight: 700;
+}
+.color ul li a:hover{
+	color: white;
+}
+a.logo{
+	margin-right: 50%;
+	margin-bottom: 10px;
+}
+.page1,.page2{
+	width: 100%;
+	height: 100%;
+}
+.card-box {
+    background-color: #fff;
+    margin-top: 110px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 30px;
+    height: auto;
+}
+.thongtin img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.thongtin,.kynang,.hocvan,.sanpham,.lhvt{
+	text-align: center;
+}
+.kynang{
+	margin-bottom: 60px;
+}
+.lienhe ul li {
+    display: inline;
+}
+.lienhe ul li a {
+    color: white;
+    background: black;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+}
+.lienhe ul li a:hover{
+	background: #26A69A;
+}
+.thongtin h2 {
+    margin: 20px 0px;
+}
+.lienhe ul li {
+    padding: 0px 6px;
+}
+.row.tt {
+    margin-top: 35px;
+}
+.tongtincanhan h2{
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+.tongtincanhan p {
+    line-height: 30px;
+}
+.ttllac ul li {
+    list-style: none;
+    margin: 20px 0px;
+}
+.clearfix i{
+    color: #26A69A;
+    font-size: 22px;
+    font-weight: bold;
+}
+.kynang h2,.hocvan h2,.sanpham h2,.lhvt h2 {
+    text-transform: uppercase;
+    color: #26A69A;
+    margin-bottom: 22px;
+}
+.thanhngang {
+    width: 100px;
+    background: #26A69A;
+    height: 2px;
+    position: relative;
+    margin: auto;
+}
+.kynang p,.hocvan p {
+    color: #5F5F5F;
+    margin-top: 30px;
+}
+.thanhngang::after {
+    content: "";
+    background: #26A69A;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: -8px;
+    top: -3px;
+    border-radius: 8px;
+}
+.thanhngang::before {
+    content: "";
+    background: #26A69A;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    left: 99px;
+    top: -3px;
+    border-radius: 8px;
+}
+div#tron1 svg,div#tron2 svg,div#tron3 svg,div#tron4 svg {
+    overflow: inherit;
+}
+div#tron1,div#tron2,div#tron3,div#tron4 {
+    width: 66%;
+    margin-left: 40px;
+    margin-bottom: 100px;
+}
+div#tron1 h4,div#tron2 h4 ,div#tron3 h4 ,div#tron4 h4  {
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    text-transform: uppercase;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: #5F5F5F;
+}
+div#tron1 i,div#tron2 i,div#tron3 i,div#tron4 i {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    font-size: 35px;
+    color: #26A69A;
+}
+.rex-right{
+	text-align: left;
+}
+.rs-round {
+    background: #26A69A;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    border: 10px solid rgba(255, 255, 255, 0.48);
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    margin-left: -71px;
+}
+.hi{
+	right: 0 !important;
+    left: auto !important;
+    margin-right: -50px !important;
+}
+.rex-item {
+    margin-left: 95px;
+    padding-top: 7px;
+    padding-left: 0;
+}
+.rex-item.hii {
+    width: 79%;
+    margin-left: 36px;
+}
+.rs-round i {
+    color: white;
+    font-size: 40px;
+}
+.timeline {
+    margin-top: 50px;
+}
+.rex-item h3 {
+    color: #26A69A;
+    font-size: 22px;
+}
+.rex-item h4 {
+    color: #4C5667;
+    padding: 6px 0px;
+    font-size: 18px;
+}
+.rex-item p {
+    color: #4C4C4C;
+    line-height: 28px;
+}
+.timeline::after {
+    content: "";
+    background: #26A69A;
+    width: 2px;
+    height: 34%;
+    position: absolute;
+    margin: 0 auto;
+    top: 42%;
+    left: 49%;
+    z-index: 1;
+}
+.menusp ul li {
+    display: inline-block;
+    padding: 0px 28px;
+    cursor: pointer;
+}
+.menusp ul {
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.active {
+    color: #26A69A;
+    border-bottom: 1px solid;
+}
+.anh img {
+    width: 250px;
+    margin-top: 35px;
+}
+.ctsp ul li {
+    display: inline-block;
+    margin-right: 9%;
+}
+.lhvt {
+    margin-bottom: 66px;
+}
+.col-sm-4.sua input,.sua textarea {
+    border: none;
+    border-bottom: 1px solid #E2E2F1;
+}
+textarea.form-control {
+    margin-top: 50px;
+}
+.col-sm-12.gui input {
+    margin-left: 42%;
+    margin-top: 35px;
+    background: #26A69A;
+}
+.lienhe.lh2 {
+    margin: 33px 0px 0px 407px;
+}
+.end p {
+    margin-left: 36%;
+    color: #5F5F5F;
+}
+
+
+
+
