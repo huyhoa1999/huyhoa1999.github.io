@@ -1,29 +1,29 @@
 *{margin: 0; padding: 0;} 
 .color{
-	background: #26A69A;
-	position: fixed;
+    background: #26A69A;
+    position: fixed;
     width: 100%;
     z-index: 20;
 }
 body{
-	background: #EEEEEE;
+    background: #EEEEEE;
 }
 .color ul li a{
-	text-transform: uppercase;
-	color: #BBE3DF;
-	font-family: 'Quattrocento Sans', sans-serif;;
+    text-transform: uppercase;
+    color: #BBE3DF;
+    font-family: 'Quattrocento Sans', sans-serif;;
     font-weight: 700;
 }
 .color ul li a:hover{
-	color: white;
+    color: white;
 }
 a.logo{
-	margin-right: 50%;
-	margin-bottom: 10px;
+    margin-right: 50%;
+    margin-bottom: 10px;
 }
 .page1,.page2{
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .card-box {
     background-color: #fff;
@@ -40,10 +40,10 @@ a.logo{
     border-radius: 50%;
 }
 .thongtin,.kynang,.hocvan,.sanpham,.lhvt{
-	text-align: center;
+    text-align: center;
 }
 .kynang{
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 .lienhe ul li {
     display: inline;
@@ -60,7 +60,7 @@ a.logo{
     border-radius: 5px;
 }
 .lienhe ul li a:hover{
-	background: #26A69A;
+    background: #26A69A;
 }
 .thongtin h2 {
     margin: 20px 0px;
@@ -147,7 +147,7 @@ div#tron1 i,div#tron2 i,div#tron3 i,div#tron4 i {
     color: #26A69A;
 }
 .rex-right{
-	text-align: left;
+    text-align: left;
 }
 .rs-round {
     background: #26A69A;
@@ -163,7 +163,7 @@ div#tron1 i,div#tron2 i,div#tron3 i,div#tron4 i {
     margin-left: -71px;
 }
 .hi{
-	right: 0 !important;
+    right: 0 !important;
     left: auto !important;
     margin-right: -50px !important;
 }
@@ -251,6 +251,62 @@ textarea.form-control {
     color: #5F5F5F;
 }
 
+@media (max-width: 576px) {
+    *{}
+  nav.navbar.navbar-ligh.color ul li {
+    text-align: center;
+    border-bottom: 1px dashed;
+  }
+  .row.cacmuc #tron1,.row.cacmuc #tron2,.row.cacmuc #tron3,.row.cacmuc #tron4 {
+    width: 40%;
+    margin: 50px auto;
+}
+.row.cacmuc #tron1 h4 {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.row.cacmuc i {
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.rs-round {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    margin-left: 10px;
+}
+.hi{
+    margin-right: 10px;
+}
+.rex-item.hii {
+    margin-left: -5px;
+}
 
+.rs-round i {
+    font-size: 30px;
+}
+.menusp ul li {
+    padding: 0 10px;
+}
+.menusp ul {
+    margin-left: 26px;
+}
+.anh img {
+    width: 110%;
+    margin-top: 15px;
+}
+.col-sm-12.gui input {
+    margin-left: 90px;
+}
+.lienhe.lh2 {
+    margin: 25px 0px 0px 56px;
+}
+.end p {
+    margin-left: 30px;
+}
+nav.navbar.navbar-ligh.color ul li:nth-child(6){
+    border-bottom: none;
+}
+}
 
 
