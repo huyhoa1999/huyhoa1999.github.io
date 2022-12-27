@@ -42,6 +42,7 @@ a.logo {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    object-fit: cover;
 }
 .thongtin,.kynang,.hocvan,.sanpham,.lhvt{
     text-align: center;
